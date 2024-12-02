@@ -123,9 +123,22 @@ html,body{
 .cards {
     width: 330px;
     display: flex;
+    position: relative;
     flex-direction: column;
     overflow: hidden;
     height: auto;
+}
+.cards .cardName{
+    bottom: 300px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #011723;
+    opacity: 90%;
+    color: white;
 }
 .cardimg {
     height: 50%;
