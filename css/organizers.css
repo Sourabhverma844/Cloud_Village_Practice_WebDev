@@ -128,9 +128,9 @@ html,body{
     color: white;
     font-weight: 600;
     font-size: 20px;
+    text-align: center;
 
 }
-
 #ContactSection{
     width: 100%;
     height: 55%;
