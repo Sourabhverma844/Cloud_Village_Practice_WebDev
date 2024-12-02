@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'gilroy',sans-serif;
+}
+#TopSection{
+    width: 100%;
+    height: 45%;
+    background-color: #011723;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+}
+#TopSection h1{
+    font-weight: 600;
+    color: white;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+#TopSection h3{
+    font-weight: 400;
+    color: white;
+    margin-bottom: 25px;
+}
+#TopSection #Agen{
+    width: 180px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: aqua;
+    border: transparent;
+    color: #011723;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+#TopSection #Agen a{
+    text-decoration: none;
+    color: inherit;
+}
+#TopSection #Agen:hover{
+    background-color: skyblue;
+    color: white;
+}
+#nav{
+    top: 0;
+    position: fixed;
+    z-index:1000;
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between  ;
+    background-color: #011723;
+}
+#nav #Logo{
+    width: 15%;
+    height: 100%;
+}
+#nav #Logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#nav #Links{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2.5%;
+}
+#nav #Links h2 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;    
+}
+#nav #Links button{
+    width: 175px;
+    height: 45px;
+    background-color:white;
+    border-radius: 40px;
+    color:#011723;
+    font-weight: 600;
+    font-size:20px;
+    border: transparent;
+}
+#nav #Links button a{
+    text-decoration: none;
+    color: inherit;
+}
+#nav #Links button:hover{
+    background-color: skyblue;
+    color: white;
+}
+#Presentars{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.PresentarBox {
+    width: 55%;
+    background-color: #E8E6E6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    gap: 10px;
+    margin: 12.5px;
+}
+.PresentarImg {
+    width: 940px;
+    height: 370px;
+    background-color: cyan;
+}
+.PresentarImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px -150px;
+}
+.PresentarTitle {
+    height: 15%;
+    width: 95%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.PresentarTitle h1{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.PresentarTitle h2{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.PresentarTitle h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.PresentarAbout {
+    width: 95%;
+    min-height: 35%;
+    line-height: 24px;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+#ContactSection{
+    width: 100%;
+    height: 55%;
+    background-color:#011723;
+}
+#ContactSection #ContactBox{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    display: flex;
+}
+#ContactBox #Left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#ContactBox #LeftImage{
+    width: 30%;
+    height: 30%;
+    /* background-color: rgb(134, 145, 145); */
+    margin:5%;
+}
+#ContactBox #LeftImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ContactBox #LeftDetail{
+    width: 100%;
+    height: 30%;
+}
+#Left #LeftDetail h1{
+    color: white;
+    font-weight:300;
+    font-size: 16px;
+    line-height: 24px;
+}
+#Left #LeftDetail #Sociallink{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+#Left #LeftDetail #Sociallink .Circle{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Left #LeftDetail #Sociallink .Circle a{
+    text-decoration: none;
+    color: inherit;
+}
+#Left #LeftDetail #Sociallink .Circle i{
+    font-size: 20px;
+}
+#Left #LeftDetail #Sociallink .Circle:hover{
+    background-color: skyblue;
+    color: white;
+}
+#ContactBox #Right{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#ContactBox #Right #RightDetails{
+    width: 100%;
+    height: 25%;
+    margin-top: 45%;
+    padding: 40px 0px;
+}
+#RightDetails h1{
+    font-weight: 500;
+    color: white;
+    font-size: 28px;
+}
+#RightDetails h2{
+    font-weight: 100;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
