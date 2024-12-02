@@ -42,12 +42,12 @@ html,body{
     object-fit: contain;
 }
 #nav #Links{
-    width: 50%;
+    width: 40%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:2.5%;
+    gap:5%;
 }
 #nav #Links h2 a{
     text-decoration: none;
